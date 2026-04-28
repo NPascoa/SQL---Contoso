@@ -423,9 +423,9 @@ The segmentation emphasizes greater behavioral granularity within high-value cus
 
 **Visualizations:**
 
-![customer distribution by segment](images\customer_segment_distribution.png)
+![customer distribution by segment](images/customer_segment_distribution.png)
 
-![profit by customer segment](images\profit_by_customer_segment.png)
+![profit by customer segment](images/profit_by_customer_segment.png)
 
 **Findings:**
 
@@ -473,7 +473,7 @@ Using both avoids the misleading impression that rising activity in later months
 
 **Visualizations:**
 
-![cohort activity rate heatmap](images\cohort_activity_rate_heatmap.png)
+![cohort activity rate heatmap](images/cohort_activity_rate_heatmap.png)
 
 <u>Interpretation of cohort activity rate heatmap</u>: Most of the chart is very light, which suggests cohort activity rate is generally low relative to the 0–10% range shown on the colorbar (global scale). Rather than one simple overall pattern (clean left to right fade in every row), there are scattered darker pockets, making this very uneven, possibly reflecting specific strong cohorts, seasonal effects, campaign effects or product changes.
 
@@ -483,11 +483,11 @@ Cohorts from roughly 2020 to 2022 appear to contain more medium-blue cells than 
 Diagonal patches (seasonality) are also visible, meaning that there were activity spikes or dips at the same absolute calendar time, regardless of cohort. 
 
 
-![rolling retention by cohort and overall average line chart](images\rolling_retention_cohorts_avg.png)
+![rolling retention by cohort and overall average line chart](images/rolling_retention_cohorts_avg.png)
 *Note about this line chart: background (faded) are all cohorts. A few particular ones (early, mid and recent cohorts) were highlighted for clarity. The average rolling retention of all cohorts is also presented to show overall pattern. Heatmap of this graph isn't as visually informative as this line chart, but it is still provided below*
 
 
-![rolling retention by cohort and overall average heatmap](images\cohort_rolling_retention.png)
+![rolling retention by cohort and overall average heatmap](images/cohort_rolling_retention.png)
 
 <u>Interpretation of cohort rolling retention rate heatmap</u>: Each cell means “share of the cohort that purchased in this month or any later month,” so the chart is showing the probability that a customer is still “alive” by each lifecycle threshold.
 
@@ -499,7 +499,7 @@ Some cohorts seem to flatten out (somewhat constant retention rate for many mont
 
 There are no diagonal patterns, because retention is cumulative and does not reflect seasonality.
 
-![average lifetime profit by cohort](images\avg_lifetime_profit_by_cohort.png)
+![average lifetime profit by cohort](images/avg_lifetime_profit_by_cohort.png)
 
 Interpretation: Average lifetime profit does not increase with cohort age. Cohort quality appears to vary meaningfully across acquisition periods, suggesting that differences in customer mix or purchasing behavior may matter as much as cohort age.
 
@@ -577,7 +577,7 @@ customer and a churned Champion require completely different responses).
 
 * Profit by retention status:
   
-![profit by retention status](images\profit_by_retention_status.png)
+![profit by retention status](images/profit_by_retention_status.png)
 
 
 * Segment x Retention Status:
@@ -646,7 +646,7 @@ on a small customer subset helps assess business risk and justify investment in 
 
 **Visualizations:**
 
-![Lorenz Curve](images\Lorenz_curve.png)
+![Lorenz Curve](images/Lorenz_curve.png)
 
 
 **Findings:**
@@ -689,9 +689,9 @@ Evaluating both average and P90 delivery time provides a more complete picture t
 
 **Visualizations:**
 
-![Delivery time distribution](images\delivery_time_distribution_histogram.png)  
+![Delivery time distribution](images/delivery_time_distribution_histogram.png)  
 
-![Average delivery time by country](images\avg_delivery_time_by_country.png)
+![Average delivery time by country](images/avg_delivery_time_by_country.png)
 
 
 **Findings:**
@@ -729,11 +729,11 @@ Seasonality was evaluated using average monthly revenue across years, with profi
 
 **Visualizations:**
 
-![Montly revenue and profit trend](images\monthly_revenue_and_profit.png)  
+![Montly revenue and profit trend](images/monthly_revenue_and_profit.png)  
 
-![Average monthly revenue](images\avg_monthly_revenue.png)  
+![Average monthly revenue](images/avg_monthly_revenue.png)  
 
-![Orders by day of week](images\orders_by_day_of_week.png) 
+![Orders by day of week](images/orders_by_day_of_week.png) 
 
 **Findings:**
 
